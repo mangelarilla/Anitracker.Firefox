@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Anitracker",
+  "version": "1.0",
+
+  "description": "Automatically syncs Anilist's anime watching list episodes",
+  "homepage_url": "https://github.com/mangelarilla/Anitracker.Firefox",
+
+  "browser_action": {
+    "default_icon": "temp-icon.png",
+    "default_title": "Anitracker",
+    "default_popup": "embed.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://animeflv.net/ver/*"],
+      "js": ["tracker.js"]
+    }
+  ]
+
+}
