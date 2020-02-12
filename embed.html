@@ -6,18 +6,8 @@
   </head>
 
 <body>
-  <h1>Default</h1>
-  <!-- <iframe src="https://anitracker.maadsharp.net"></iframe> -->
+  <iframe id="anitracker" src="https://anitracker.maadsharp.net"></iframe>
+  <script src="embed.js"></script>
 </body>
-
-<script>
-  function handleMessage(request, sender, sendResponse) {
-    console.log("Message from the content script: " +
-      request.greeting);
-    sendResponse({response: "Response from background script"});
-  }
-
-  browser.runtime.onMessage.addListener(handleMessage);
-</script>
 
 </html>

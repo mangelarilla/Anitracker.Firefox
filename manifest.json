@@ -17,6 +17,10 @@
       "matches": ["https://animeflv.net/ver/*"],
       "js": ["tracker.js"]
     }
-  ]
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
 
 }
