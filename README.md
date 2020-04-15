@@ -1,2 +1,2 @@
 # Anitracker.Firefox
-Firefox extension for Anitracker automated tracking updates
+Firefox extension for [Anitracker](https://github.com/mangelarilla/Anitracker) automated tracking updates
